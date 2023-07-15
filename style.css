@@ -1,0 +1,102 @@
+/* font-family: 'Andika', sans-serif;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Petit Formal Script', cursive;
+*/
+
+* {
+    font-family: 'Andika', sans-serif;
+}
+body {
+    background-color: rgb(255, 223, 213);
+}
+
+h1, h2 {
+    text-align: center;
+}
+.title1 {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 48px;
+}
+.title2 {
+    color: rgb(117, 76, 63);
+    font-family: 'Petit Formal Script', cursive;    
+}
+
+/*PROPIEDADES DE img*/
+
+figure {
+    text-align: center;
+}
+
+figcaption {    
+    color: rgb(117, 76, 63);
+    font-size: 12px;
+    text-align: center;
+}
+
+figcaption a:link, figcaption a:visited {
+    color: rgb(194, 170, 163);
+    text-decoration: none;
+}
+figcaption a:hover, figcaption a:active {
+    color: rgb(194, 170, 163);
+    text-decoration:underline;
+}
+
+/*PROPIEDADES PARA index.html*/
+
+/*lista*/
+
+.index-p {
+    text-align: center;
+}
+
+.index-list, .index-list a, .index-list span {
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 600;
+    list-style-type: none;
+    text-align: center;
+}
+
+.index-list a:link, .index-list a:visited {
+    color: rgb(117, 76, 63);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.index-list a:hover, .index-list a:active {
+    color: rgb(117, 76, 63);
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.index-list a:active span{
+    color: rgb(0, 0, 0);
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 50px;
+}
+
+/*PROPIEDADES recetas.html*/
+
+/*enlaces*/
+a {
+    color: rgb(117, 76, 63);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*botones*/
+
+button {
+    background-color: rgb(117, 76, 63);
+}
+
+button a, button a:hover {
+    color: rgb(194, 170, 163);
+    text-decoration: none;
+}
