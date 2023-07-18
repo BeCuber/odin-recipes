@@ -5,6 +5,7 @@ font-family: 'Petit Formal Script', cursive;
 
 * {
     font-family: 'Andika', sans-serif;
+    border: 2px solid rgb(170, 22, 238);
 }
 body {
     background-color: rgb(255, 223, 213);
