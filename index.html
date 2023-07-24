@@ -2,27 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Odin Recipes</title>
         <link rel="stylesheet" href="style.css">
         <!--Enlace de google fonts para tres tipos de letra-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Andika&family=Caesar+Dressing&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <h1><span class="title1">Odin</span><span class="title2">Recipes</span></h1>
-        <p class="index-p">Has it been too long since your last battle, and you don't know how to earn your gods' favor?</p>
-        <figure>
-        <img src="./images/vikingo.png" alt="viking silhouette" height="400">
-        <figcaption>Image by <a href="https://pixabay.com/es/users/benkageyama-16400508/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5157647" target="_blank">Ben Kageyama</a> on <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=46196" target="_blank">Pixabay</a></figcaption>
-        </figure>
-        <br>
-        <p class="index-p">Prove your value by gathering the ingredients for a banquet worthy of them!</p>
-        <ul class="index-list">
-        <li><a href="recipes/mead.html"><span>S</span>acred Me<span>a</span>d</a></li>
-        <li><a href="recipes/salmon.html">S<span>av</span>ag<span>e</span> Sa<span>l</span>mon</a></li>
-        <li><a href="recipes/berry.html"><span>W</span>ild Ber<span>ry</span>s</a></li>
-        </ul>
-        <p class="index-p">Follow each recipe, and do not forget to invite Odin (he likes to walk among mortals, specially for a party).</p>
+        <header>
+            <h1><span class="title1">Odin</span><span class="title2">Recipes</span></h1>
+        </header>
+        <div class="container">
+            <ul class="index-list">
+                <li><a href="recipes/mead.html">Sacred Mead</a></li>
+                <li><a href="recipes/salmon.html">Savage Salmon</a></li>
+                <li><a href="recipes/berry.html">Wild Berrys</a></li>
+            </ul>
+            <div class="intro-text">
+                <p class="index-p">Has it been too long since your last battle, and you don't know how to earn your gods' favor?</p>
+                <p class="index-p">Prove your value by gathering the ingredients for a banquet worthy of them!</p>
+                <p class="index-p">Follow each recipe, and do not forget to invite Odin (he likes to walk among mortals, specially for a party).</p>
+            </div>
+            <div class="image-section">
+                <img src="./images/vikingo.png" alt="viking silhouette" width="300">
+                <p>Image by <a href="https://pixabay.com/es/users/benkageyama-16400508/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5157647" target="_blank">Ben Kageyama</a> on <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=46196" target="_blank">Pixabay</a></p>
+            </div>
+        </div>        
     </body>
 </html>

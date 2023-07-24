@@ -1,14 +1,26 @@
-/* font-family: 'Andika', sans-serif;
+/*
+
 font-family: 'Caesar Dressing', cursive;
+font-family: 'Lato', sans-serif;
 font-family: 'Petit Formal Script', cursive;
+
 */
 
+/* PROPIEDADES Generales */
+
+
+
 * {
-    font-family: 'Andika', sans-serif;
-    border: 2px solid rgb(170, 22, 238);
+    /*border: 2px solid rgb(170, 22, 238);*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
 body {
-    background-color: rgb(255, 223, 213);
+    background-color: rgb(117, 76, 63);
+    font-family: 'Lato', 'Trebuchet MS', sans-serif;
 }
 
 h1, h2 {
@@ -16,24 +28,23 @@ h1, h2 {
 }
 .title1 {
     font-family: 'Caesar Dressing', cursive;
+    color: rgb(49, 1, 1);
     font-size: 48px;
 }
 .title2 {
-    color: rgb(117, 76, 63);
+    color: rgb(241, 221, 215);
     font-family: 'Petit Formal Script', cursive;    
 }
 
-/*PROPIEDADES DE img*/
+/*PROPIEDADES DE texto img*/
 
-figure {
-    text-align: center;
-}
-
-figcaption {    
+.image-section p {    
     color: rgb(117, 76, 63);
     font-size: 12px;
     text-align: center;
 }
+
+/*enlaces de las imágenes*/
 
 figcaption a:link, figcaption a:visited {
     color: rgb(194, 170, 163);
@@ -46,17 +57,73 @@ figcaption a:hover, figcaption a:active {
 
 /*PROPIEDADES PARA index.html*/
 
+.container {
+    background-color: beige;
+    box-shadow: 1px 1px 4px rgb(49, 1, 1);
+    margin: 20px auto;
+    width: 1200px;
+    height: 430px;
+    max-height: 430px;
+    font-size: 0;
+}
+
+
+.image-section, .intro-text, .index-list {
+    display: inline-block; 
+    font-size: 16px;
+    border: 2px dotted aqua;
+}
+
+.image-section {
+    margin-top: 10px;
+    height: 420px;
+    width: 300px;
+}
+
+.index-list {
+    margin: 40px 30px 40px 0;
+    padding-left: 30px;
+}
+
+ .index-list li {
+    margin: 20px 5px;
+    padding: 5px;
+ }
+
+.intro-text {
+    margin: 20px;
+    width: 500px;    
+}
+
+.intro-text p{
+    margin: 20px;
+    padding: 5px;
+}
+
+.image-section {
+    width: 300px;
+}
+
+.index-list {
+    width: 300px;
+}
+
+/*img*/
+
+
+
 /*lista*/
 
 .index-p {
     text-align: center;
 }
 
-.index-list, .index-list a, .index-list span {
+
+.index-list, .index-list a {
     font-family: 'Petit Formal Script', cursive;
     font-weight: 600;
     list-style-type: none;
-    text-align: center;
+    
 }
 
 .index-list a:link, .index-list a:visited {
@@ -72,11 +139,6 @@ figcaption a:hover, figcaption a:active {
     text-decoration: none;
 }
 
-.index-list a:active span{
-    color: rgb(0, 0, 0);
-    font-family: 'Caesar Dressing', cursive;
-    font-size: 50px;
-}
 
 /*PROPIEDADES recetas.html*/
 
