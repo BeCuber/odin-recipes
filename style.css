@@ -71,7 +71,6 @@ figcaption a:hover, figcaption a:active {
 .image-section, .intro-text, .index-list {
     display: inline-block; 
     font-size: 16px;
-    border: 2px dotted aqua;
 }
 
 .image-section {
